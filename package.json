@@ -1,6 +1,6 @@
 {
     "name": "simple-substitutions-encryption",
-    "version": "1.0.3",
+    "version": "1.0.5",
     "description": "## Usage example ```javascript const secret = require('./secret');",
     "main": "index.js",
     "scripts": {
