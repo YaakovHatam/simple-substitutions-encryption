@@ -2,7 +2,7 @@
 
 ## Usage example
 ```javascript
-const secret = require('./secret');
+const secret = require('secret');
 
 const str = 'Hello Omar! how are you...';
 
