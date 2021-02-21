@@ -1,12 +1,9 @@
 {
     "name": "simple-substitutions-encryption",
     "version": "1.0.5",
-    "description": "## Usage example ```javascript const secret = require('./secret');",
+    "description": "## simple ecryption",
     "main": "index.js",
-    "scripts": {
-        "start": "node index.js",
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
+    "scripts": {},
     "repository": {
         "type": "git",
         "url": "git+https://github.com/YaakovHatam/simple-substitutions-encryption.git"

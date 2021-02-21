@@ -21,12 +21,12 @@ function swap(someString, swapArray) {
     return ret;
 }
 
-function encode(someString) {
-    return swap(someString, SECRET_KEYS);
+function encode(someString, callback) {
+    callback(null, swap(someString, SECRET_KEYS));
 }
 
-function decode(someString) {
-    return swap(someString, INVERTED_SECRET_KEYS);
+function decode(someString, callback) {
+    callback(null, swap(someString, INVERTED_SECRET_KEYS));
 }
 
 module.exports.encode = encode;
